@@ -1,0 +1,463 @@
+/* Fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300;600&family=Poppins&family=Rampart+One&family=Reem+Kufi+Fun:wght@400;500&family=Roboto:ital,wght@0,400;1,500&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,400;1,500&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@600&family=Rampart+One&family=Reem+Kufi+Fun:wght@500&family=Roboto:ital,wght@0,400;1,500&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300;600&family=Rampart+One&family=Reem+Kufi+Fun:wght@400;500&family=Roboto:ital,wght@0,400;1,500&family=Rubik+Mono+One&display=swap');
+
+
+/* Header Formatting here - FORMATTING FOR MOBILE */
+
+header {
+    text-align: center;
+    background-color: #d57c1c;
+    margin-top: 5px;
+    margin: 15px; 
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 50PX;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    font-family: 'roboto';
+    text-decoration: none;
+
+}
+
+.nav-header a:hover {
+    color: rgb(45, 103, 155);
+    font-size: 20px;
+}
+
+/* Body formatting here */
+
+main {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+h3 {
+    font-family: 'Reem Kufi Fun', sans-serif;;
+    font-size: 20px;
+    line-height: 30px;
+    line-break: loose;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    line-height: 25px;
+}
+
+
+.highlight {
+    color: rgb(221, 99, 0); 
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    width:90%;
+}
+
+.image-index img {
+    /* width: 100%; */
+    border: solid #d57c1c 2px;
+    border-radius: 180px;
+    width: 90%;
+}
+
+.image-index {
+    padding-left: 7%;
+}
+
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 0px;
+    width:100%;
+}
+
+/* Footer formatting here */
+
+footer {
+    text-align: center;
+    background-color: #d57c1c; 
+    margin: 15px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.footer-logo {
+    font-size: 40px;
+}
+
+.nav-footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.nav-footer a:hover {
+    color: rgb(45, 103, 155);
+    font-size: 44px;
+}
+
+
+/* -------------------------------------------- CONNECT.HTML STYLES  --------------------------------------------  */
+
+  
+.form-header {
+    font-size: 30px;
+    font-family: 'Reem Kufi Fun', sans-serif;;
+    font-size: 30px;
+    line-height: 60px;
+    color: rgb(202, 81, 0); 
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.connect-div {
+    margin-bottom: 40px;
+}
+
+label {
+    text-align: left !important;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 5px;
+    padding-top: 10;
+    padding-bottom: 15px;
+}
+
+
+.form-item label {
+    font-size: 18px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    width: 100px;
+}
+
+.connect {
+    text-align: center;
+    line-height: 20px;
+    margin:0px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    text-align:left;
+    border: 2px solid #d57b1c;
+    border: 1px solid #d57b1c;
+    background-color: #d57b1c39;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    min-width: 203px;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid rgb(45, 103, 155);
+}
+
+.form-item button {
+    border: 1px solid rgb(45, 103, 155);
+    background-color: rgb(45, 103, 155);
+    color: #FFF;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.form-item button:hover {
+    border: 2px solid #d57b1c;
+    background-color: #d57b1c;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.form-item button {
+    margin-top: 5px;
+    margin-bottom:30px;
+    padding: 5px;
+    width: 100px;
+}
+
+
+/* --------------------------------------------- WORK.HTML (PROJECT) STYLES ----------------------------------------- */
+
+.card {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .card:hover .overlay {
+    opacity: 0.8;
+  }
+
+  .text {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* ------------------------------------------------ STYLES FOR IPAD --------------------------------------------------- */
+
+@media (min-width: 600px) {
+
+header {
+    margin: 15px; 
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+    padding-bottom: 25px;
+    margin: 20px
+}
+
+a {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 30px;
+}
+
+.nav-header a:hover {
+    font-size: 30px;
+}
+
+
+main {
+    margin: 0px;    
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+
+}
+
+#form-wrapper {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.form-header {
+    font-size: 30px;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 30px;
+    margin-top: 25px;
+}
+
+.form-item button {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.section1 {
+    text-align: center;
+    width: 45%;
+    padding:20px
+}
+
+.section2 {
+    width: 45%;
+    align-content: center;
+    margin: 0px;
+}
+
+.image-index img {
+    align-content: center;
+    border: solid #d57c1c 2px;
+    border-radius: 180px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+}
+
+.main-projects {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
+.text {
+    font-size:20px;
+    line-height: 24px;
+}
+
+/* ------------------------------------------------ STYLES FOR LAPTOP --------------------------------------------------- */
+
+@media (min-width:1000px) {
+
+    header {
+        margin: 15px; 
+        margin-bottom: 30px;
+        padding-bottom: 50px;
+    }
+    
+    h1 {
+        font-size: 70px;
+        line-height: 70px;
+        margin: 20px;
+    }
+    
+    a {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .form-header {
+        text-align: center;
+        width: 80%;
+    }
+
+    .nav-header a:hover {
+        font-size: 30px;
+    }
+    
+    main {
+        margin: 0px;    
+    }
+
+    .main-projects {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0%;
+
+    }
+
+    .card {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        width: calc(90% / 3 - 5px);
+      }
+      
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+    }
